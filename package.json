@@ -1,0 +1,8 @@
+{
+  "name": "typescript-lessons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ElladanTasartir/typescript-lessons.git",
+  "author": "Erick Malta <erickmalta100@gmail.com>",
+  "license": "MIT"
+}
