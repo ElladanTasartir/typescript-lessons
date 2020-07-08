@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -w"
+    "dev:frontend": "webpack -w",
+    "dev:backend": "tsc"
   },
   "repository": "https://github.com/ElladanTasartir/typescript-lessons.git",
   "author": "Erick Malta <erickmalta100@gmail.com>",
