@@ -2,6 +2,9 @@
   "name": "typescript-lessons",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w"
+  },
   "repository": "https://github.com/ElladanTasartir/typescript-lessons.git",
   "author": "Erick Malta <erickmalta100@gmail.com>",
   "license": "MIT",
@@ -12,7 +15,10 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
+    "ts-loader": "^7.0.5",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
