@@ -47,7 +47,7 @@ export default class VideoPlayer implements VideoPlayerProtocols {
     });
   }
 }
-
+/* eslint-disable */
 const videoPlayer = new VideoPlayer({
   videoPlayer: document.querySelector('.video') as HTMLVideoElement,
   playButton: document.querySelector('.play') as HTMLButtonElement,
