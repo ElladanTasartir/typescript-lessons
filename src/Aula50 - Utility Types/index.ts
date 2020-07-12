@@ -1,7 +1,4 @@
 // O Record recebe como genérico o tipo da chave e o tipo dos valores
-
-import { Pessoa } from '../Aula23 - Inheritance';
-
 // Porém, se formos contra o que definimos em qualquer uma das chaves, ele irá dar problema
 const objeto1: Record<string, string | number> = {
   nome: 'Erick',
